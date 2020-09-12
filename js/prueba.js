@@ -47,21 +47,23 @@ $('#btn1').click(function(event) {
 	  title: 'Bienvenido Usuario',
 	})
 });
+
+
 // TOASTR
 // https://codeseven.github.io/toastr/demo.html
 
 $('#btn8').click(function(event) {
-toastr.success('Lorem ipsum dolor sit amet, consetetur sadipscing elitr.')
+toastr.success('Accion ejecutada con exito!')
 });
 
 $('#btn6').click(function(event) {
-toastr.info('Lorem ipsum dolor sit amet, consetetur sadipscing elitr.')
+toastr.info('Texto informativo sobre alguna acción.')
 });
 
 $('#btn9').click(function(event) {
-toastr.error('Lorem ipsum dolor sit amet, consetetur sadipscing elitr.')
+toastr.error('Error 404')
 });
 
 $('#btn10').click(function(event) {
-toastr.warning('Lorem ipsum dolor sit amet, consetetur sadipscing elitr.')
+toastr.warning('Cambios realizados que perjudican su estado.')
 });
